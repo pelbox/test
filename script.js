@@ -4,6 +4,8 @@ function RGBcolor() {
     var B = Math.floor(Math.random() * 256);
     var randomcolor = "rgb(" + R + "," + G + "," + B + ")";  
     console.log(randomcolor);
+    document.body.style.backgroundColor = randomcolor;
+
   }
   
   RGBcolor();
